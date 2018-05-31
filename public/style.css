@@ -3,4 +3,31 @@ body {
 }
 div {
   text-align: center;
+  font-size: 30px;
+  font-family: "Trattatello", fantasy;
+}
+h2 {
+  margin-top: -40px;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Trattatello", fantasy;
+}
+#image1 {
+  margin-top: -5px;
+  border: 3px solid;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Trattatello", fantasy;
+}
+#image2 {
+  width: 400px;
+  height: 400px;
 }
