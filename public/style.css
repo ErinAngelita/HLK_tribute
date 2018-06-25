@@ -12,22 +12,38 @@ h2 {
   font-size: 25px;
   font-family: "Trattatello", fantasy;
 }
-#image1 {
-  margin-top: -5px;
-  border: 3px solid;
+#rotating-item-wrapper {
+  position: relative;
+  width: 640px;
+  height: 425px
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.rotating-item {
+  display: none;
+  position: absolute;
 }
 p {
   text-align: center;
   font-size: 25px;
   font-family: "Trattatello", fantasy;
 }
-#image2 {
+#wplogo {
+  position: center;
   width: 400px;
   height: 400px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: #e5eecc;
+  border:soloid 1px#c3c3c3;
+}
+#panel {
+  padding: 50px;
+  display: none;
 }
